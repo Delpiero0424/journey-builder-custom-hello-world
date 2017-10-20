@@ -15,10 +15,10 @@ var app = express();
 // Register configs for the environments where the app functions
 // , these can be stored in a separate file using a module like config
 var APIKeys = {
-    appId           : '__insert_your_app_id__',
-    clientId        : '__insert_your_app_client_id__',
-    clientSecret    : '__insert_your_app_client_secret__',
-    appSignature    : '__insert_your_app_signature__',
+    appId           : '3b169819-0dfd-4b06-bb33-efe0ae8efade',
+    clientId        : 'na6drab9se17oep90o3ko34w',
+    clientSecret    : '4ZPhGHnatDhLpmM1GgNxYr8x',
+    appSignature    : 'dahvcp3bxoasgoajd4pu54vnthjpmgaqcvutpszkwfmtfi0mmpy3cy4qbjfayccscfwesxszz1zznqwseqfvncrp0bwn0nez4okdc2apxfra2orw50hu4gwy1bvlxggd4goycn0fvkfjooftdgicp4hwunsuzf0mwlxwuq1rtqmln4yjbq4wq5yaqhqxolls2hjzg42mimr5pzydzw0ph1cq2omfubnfdcnhuhehfphewkmb1l1hhkwncb4c4cz',
     authUrl         : 'https://auth.exacttargetapis.com/v1/requestToken?legacy=1'
 };
 
