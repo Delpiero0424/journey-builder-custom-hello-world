@@ -79,7 +79,7 @@ app.post('/ixn/triggers/hello-world/', trigger.edit );
 // Abstract Event Handler
 app.post('/fireEvent/:type', function( req, res ) {
     var data = req.body;
-    var triggerIdFromAppExtensionInAppCenter = 'ContactEvent-e58377f5-5744-29b7-605a-0661ac64ac6c';
+    var triggerIdFromAppExtensionInAppCenter = 'ContactEvent-70242d5b-318b-4bb1-bfa8-3b5fd3926c50';
     var JB_EVENT_API = 'https://www.exacttargetapis.com/interaction-experimental/v1/events';
     var reqOpts = {};
 
