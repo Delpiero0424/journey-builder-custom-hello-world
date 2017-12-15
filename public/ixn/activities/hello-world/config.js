@@ -2,7 +2,7 @@ define([], function(){
     return {
         "icon": "images/jb-icon.jpg",
         "iconSmall": "images/jb-icon.jpg", 
-        "key": "jb-hello-world-activity-tokamoto",
+        "key": "journey-builder-custom-hello-world",
         "partnerApiObjectTypeId": "IXN.CustomActivity.REST",
         "lang": {
             "en-US": {        
@@ -49,7 +49,7 @@ define([], function(){
         },
 
         "edit": {
-            "uri": "https://hagemon-is-hage.herokuapp.com/ixn/activities/hello-world/",
+            "uri": "https://hagemon-is-hage.herokuapp.com/ixn/activities/hello-world",
             "height": 400,
             "width": 500
         }
