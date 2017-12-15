@@ -14,7 +14,7 @@ define([], function(){
         "version": "1.0",
         "apiVersion": "1.0",
        "execute": {
-            "uri": "https://custome-ac-sample.herokuapp.com/ixn/activities/hello-world/execute/",
+            "uri": "https://hagemon-is-hage.herokuapp.com/ixn/activities/hello-world/execute/",
 			"inArguments": [],
 			"outArguments": [],
             "verb": "POST",
@@ -24,7 +24,7 @@ define([], function(){
             "timeout": 3000
 		},
         "save": {
-            "uri": "https://custome-ac-sample.herokuapp.com/ixn/activities/hello-world/save/",
+            "uri": "https://hagemon-is-hage.herokuapp.com/ixn/activities/hello-world/save/",
 			"verb": "POST",
 			"body": "",
             "format": "json",
@@ -32,7 +32,7 @@ define([], function(){
             "timeout": 3000
         },
         "publish": {
-            "uri": "https://custome-ac-sample.herokuapp.com/ixn/activities/hello-world/publish/",
+            "uri": "https://hagemon-is-hage.herokuapp.com/ixn/activities/hello-world/publish/",
             "verb": "POST",
 			"body": "",
             "format": "json",
@@ -40,7 +40,7 @@ define([], function(){
             "timeout": 3000
         },
         "validate": {
-            "uri": "https://custome-ac-sample.herokuapp.com/ixn/activities/hello-world/validate/",
+            "uri": "https://hagemon-is-hage.herokuapp.com/ixn/activities/hello-world/validate/",
             "verb": "POST",
 			"body": "",
             "format": "json",
@@ -49,7 +49,7 @@ define([], function(){
         },
 
         "edit": {
-            "uri": "https://custome-ac-sample.herokuapp.com/ixn/activities/hello-world/",
+            "uri": "https://hagemon-is-hage.herokuapp.com/ixn/activities/hello-world/",
             "height": 400,
             "width": 500
         }
